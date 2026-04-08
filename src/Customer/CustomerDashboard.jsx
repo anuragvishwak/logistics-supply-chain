@@ -1,7 +1,13 @@
 import React from "react";
+import CustomerNavbar from "./CustomerNavbar";
 
 function CustomerDashboard() {
-  return <div>CustomerDashboard</div>;
+  return (
+    <div>
+      <CustomerNavbar />
+      <p>CustomerDashboard</p>
+    </div>
+  );
 }
 
 export default CustomerDashboard;
