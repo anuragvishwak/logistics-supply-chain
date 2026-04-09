@@ -8,8 +8,8 @@ function SignUp() {
     <div className="flex justify-center bg-gray-100 items-center h-screen w-screen">
       <div className="bg-white p-5 w-4/12 rounded border border-gray-300 shadow">
         <div>
-          <p className="text-[#333333] text-2xl font-bold">Sign Up</p>
-          <p className="italic text-sm text-gray-600">
+          <p className="text-[#00082e] text-2xl font-bold">Sign Up</p>
+          <p className="italic text-sm text-[#FF3E4E]">
             Star your journey with us...
           </p>
         </div>
@@ -57,7 +57,7 @@ function SignUp() {
             />
           </div>
         </div>
-        <button className="text-white w-full rounded py-1 bg-[#333333]">
+        <button className="text-white w-full rounded py-1 bg-[#FF3E4E]">
           Go!
         </button>
 
